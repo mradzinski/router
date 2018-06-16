@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+apply plugin: 'maven'
+
+dependencies {
+    api project(':core')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
